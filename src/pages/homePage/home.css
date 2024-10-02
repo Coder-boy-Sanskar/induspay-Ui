@@ -1,0 +1,119 @@
+@media (min-width: 1600px) {
+  .contain {
+    width: 1600px;
+  }
+}
+@media (max-width: 1600px) {
+  .contain {
+    width: 100%;
+  }
+}
+
+/* **************************************************************************HERO-section***************************************** */
+.hero-container {
+  background-image: url("../../../public/hero.png");
+  background-size: contain;
+  overflow: hidden;
+  background-color: #f4f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+
+  img {
+    margin-top: 95px;
+    margin-left: 53px;
+    margin-bottom: 68px;
+  }
+}
+.hero-content {
+  margin-top: 153px;
+  width: 541px;
+  height: 386px;
+  margin-right: 53px;
+  .hero-simp-text {
+    margin-top: 25px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+}
+@media (max-width: 991px) {
+  .hero {
+    display: inline;
+  }
+}
+/* ___________________________________________________OUR SERVICE______________________________________________________ */
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .service-text {
+    margin-top: 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-cards {
+    margin-top: 81px;
+    img {
+      cursor: pointer;
+      transition: 0.3s ease, transform 0.2s ease;
+    }
+    img:hover {
+      transform: scale(1.005);
+      box-shadow: 0px 4px 4px 0px #00000040;
+    }
+  }
+  .serviceDot {
+    position: relative;
+    top: -46px;
+    left: 511px;
+    z-index: 0;
+  }
+  .ratting {
+    /* box-shadow: 0px 0.2px 1px 0px #00000040; */
+    border-bottom:.1px solid #E7E9ED;
+    .ratting-img {
+      margin-top: 9px;
+      margin-left: 79px;
+      margin-bottom: 128px;
+    }
+    .ratting-msg {
+      font-family: "Poppins";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 34px;
+      letter-spacing: -0.5px;
+      margin-top: 37px;
+    
+    }
+    .ratting-txt{
+        margin-left: 81px;
+    }
+    .starts {
+      .star {
+        color: #fcad38;
+        font-size: 20px;
+
+      }
+    }
+  }
+}
+@media (min-width: 1254px) {
+  .ratting {
+    display: flex;
+    width: 1108px;
+  }
+}
+@media (max-width: 1254px) {
+  .serviceDot {
+    display: none;
+  }
+}

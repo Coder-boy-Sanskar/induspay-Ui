@@ -1,14 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/header/Header';
 import HomePage from './pages/homePage/HomePage';
-import Footer from './components/Footer';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <>
      
-     <Header/>
+     {/* <Header/> */}
      <HomePage/>
      <Footer/>
     </>
