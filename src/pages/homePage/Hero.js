@@ -10,11 +10,11 @@ const Hero = () => {
       <div style={{fontSize:"60px",color:"#161C2D",fontWeight:"700",lineHeight:'65px',letterSpacing:"-2px",marginTop:"25px"}}>
       Shift your business<br/> fast with Shade Pro.
       </div>
-       <div className='hero-simp-text'>
+       <div className='hero-simp-text' style={{color:"#737a8c"}}>
        With lots of unique blocks, you can easily build a page<br/> without coding. Build your next consultancy website within<br/> few minutes.
        </div>
 
-       
+       <button className="nav-btn" style={{marginTop:"35px"}}>Get started a project</button>
       </div>
       <img
     src="/ladyHero.png"

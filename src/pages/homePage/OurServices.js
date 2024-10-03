@@ -23,6 +23,7 @@ const OurServices = () => {
             marginTop: "23px",
             textAlign: "center",
           }}
+          className="ourserive-bold"
         >
           We provide great services for our
           <br /> customers based on needs
@@ -89,7 +90,7 @@ const OurServices = () => {
             <br />
             after getting Albino. It was super easy to edit and publish.”
           </div>
-          <div style={{fontFamily:'Poppins',marginTop:"15px",color:"#161C2D"}}> <span style={{fontWeight:'700',fontSize:"17px",color:"#161C2D"}}>Franklin Hicks</span>   Web Developer  </div>
+          <div style={{fontFamily:'Poppins',marginTop:"15px",color:"#737a8c"}}> <span style={{fontWeight:'700',fontSize:"17px",color:"#161C2D"}}>Franklin Hicks</span>   Web Developer  </div>
         </div>
       </div>
     </section>

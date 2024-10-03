@@ -1,0 +1,114 @@
+.footer-container {
+  background-color: #161c2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.botom {
+  font-family: "Poppins";
+  padding-bottom: 88px;
+  border-bottom: 0.1px solid #272b39;
+
+  margin-top: 80px;
+
+  .btml-txt {
+    color: #737a8c;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+  }
+}
+@media (min-width: 1110px) {
+  .botom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+  }
+  .refrences {
+    width: 1110px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .botom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .botom {
+    display: inline;
+    width: 320px;
+  }
+}
+.refrences {
+  max-width: 1110px;
+  margin-top: 122px;
+  margin-bottom: 109px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .colm {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-family: "Poppins";
+
+    span {color: #737a8c;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: -0.10000000149011612px;
+      text-align: left;
+    }
+    .brain {color: white;
+      font-family: "Rubik";
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 33.18px;
+      letter-spacing: -0.15555556118488312px;
+    }
+    div {
+        margin-top: 36px;
+        margin-bottom: 44px;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: -0.10000000149011612px;
+    }
+    p {
+      
+      img{
+        margin-right: 24px;
+      }
+    }
+    ul {
+        margin-top: 20px;
+      list-style-type: none; /* Removes the bullet points */
+      padding: 0; /* Removes the default padding */
+      li{
+        font-size: 17px;
+        margin-top: 15px;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:600px) {
+    .refrences {
+        flex-direction: column !important;
+    }
+}

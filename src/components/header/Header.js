@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import { logDOM } from "@testing-library/react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [dis, setDis] = useState("flex");
@@ -11,7 +12,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Brainwave.io
         </a>
         <button
@@ -44,9 +45,9 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+            <Link className="nav-link active" to="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
           <button className="nav-btn">Get started a project</button>
