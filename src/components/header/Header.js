@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./header.css";
-import { logDOM } from "@testing-library/react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -30,7 +29,7 @@ const Header = () => {
         <div className={`collapse navbar-collapse `}  style={{ display: dis }} id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0" >
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="demos">
                 Demos
               </a>
             </li>
